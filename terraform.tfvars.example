@@ -2,6 +2,13 @@ project_name = "demo"
 environment  = "dev"
 location     = "eastus"
 
+vm_size          = "Standard_B1s"
+admin_username   = "azureuser"
+allowed_ssh_cidr = "0.0.0.0/0" # Replace with "<your-public-ip>/32" to restrict SSH access
+
+# Optional: provide your own SSH public key instead of auto-generating one
+# ssh_public_key = "ssh-ed25519 AAAA..."
+
 tags = {
   managed_by = "terraform"
   owner      = "platform-team"
