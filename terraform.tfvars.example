@@ -1,0 +1,8 @@
+project_name = "demo"
+environment  = "dev"
+location     = "eastus"
+
+tags = {
+  managed_by = "terraform"
+  owner      = "platform-team"
+}
